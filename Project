@@ -1,0 +1,39 @@
+Projektlog zum Simulator
+
+Einarbeitung:
+Implementierung von pong (1 Spieler gegen "KI")
+Einarbeitung in Bewegung von Objekten und Rendern auf Screen
+Steuerung und Schnittstelle für KI
+
+Erstellung des Air Hockey Tisches
+Erstellung der Umgebung
+Physikalische Simulation des Puks, Kollision mit
+    Bande
+    Paddle
+Bau des Roboterarms mit Kinematik
+I/O für die KI
+
+06.06.19
+
+Umgebung fertig 
+Kinematik des Arms implementiert (noch keine Grenzen)
+Reibung eingebaut
+Rotation eingebaut
+
+
+12.06.19
+
+Physics verbessern.
+    Rotation abh von Normalkraft und Querkraft
+    Winkel anpassen
+    Kollision sperren o.ä. zwischen Paddle/Puk bei Überlappung
+
+Roboterarm begrenzen
+Randomness einfügen    
+
+Tore und Score hinzufügen
+
+15.06.19
+
+Kollision mit Paddle verbessern:
+Relativgeschwindigkeiten radial und tangential -> Beschleunigung und Rotation
